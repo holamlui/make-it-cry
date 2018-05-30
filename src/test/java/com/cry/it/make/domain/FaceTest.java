@@ -7,8 +7,13 @@ import static org.junit.Assert.assertThat;
 
 public class FaceTest {
 
-    @Test
+    /*@Test
     public void should_smile() throws Exception {
         assertThat(new Face().face(), is("smile"));
+    }
+    */
+	@Test
+	public void should_cry() throws Exception {
+        assertThat(new Face().face(), is("cry"));
     }
 }
